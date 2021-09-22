@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* HEADER */
@@ -75,7 +77,6 @@ main {
 .contenitore_principale {
     height: 80%;
     width: 50%;
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -94,7 +95,6 @@ main {
     font-size: 50px;
     text-align: center;
     padding-top: 40px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: white;
 } 
@@ -103,7 +103,6 @@ main {
     font-size: 18px;
     text-align: center;
     margin-top: 30px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: white;
 }
@@ -132,4 +131,52 @@ main {
     cursor: pointer;
     background-color: black;
     color: white;
+}
+
+
+/* contenitore prinicpale*/
+.seconda_sezione {
+    height: 80vh;
+    background-color: blanchedalmond;
+}
+
+.contenitore_centrale {
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    background-color: lightseagreen;
+    font-size: 0;
+}
+
+.sinistra {
+    width: 50%;
+    height: 100%;
+    background-color: lime;
+    display: inline-block;
+    
+    background-image: url(../img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-position-y: center;
+}
+
+.destra {
+    width: 50%;
+    height: 100%;
+    background-color: mediumpurple;
+    display: inline-block;
+
+    position: relative;
+}
+
+.text {
+    height: 60%;
+    width: 60%;
+    background-color: rebeccapurple;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
