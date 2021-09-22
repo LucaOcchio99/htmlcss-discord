@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  UTILITIES  */
+
+
+/* HEADER */
+header {
+    height: 15vh;
+    background-color: lightgreen;
+}
+
+nav {
+    height: 100%;
+    width: 80%;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+nav li  {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.logo,
+.accedi {
+    height: 100%;
+    width: 20%;
+    background-color: lightsalmon;
+    float: left;
+}
+
+.logo {
+     text-align: right;
+}
+
+.menu {
+    height: 100%;
+    width: 60%;
+    background-color: lightyellow;
+    float: left;
+
+    text-align: center;
+}
+
+
+/* MAIN */
+main {
+    height: 80vh;
+    background-color: mediumseagreen;
+
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
