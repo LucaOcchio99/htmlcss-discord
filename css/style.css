@@ -4,19 +4,15 @@
     box-sizing: border-box;
 }
 
-/*  UTILITIES  */
-
-
 /* HEADER */
 header {
     height: 15vh;
-    background-color: lightgreen;
+    background-color: rgb(23, 23, 209);
 }
 
 nav {
     height: 100%;
     width: 80%;
-    background-color: lightgrey;
     margin: auto;
 }
 
@@ -31,8 +27,9 @@ nav li  {
 .accedi {
     height: 100%;
     width: 20%;
-    background-color: lightsalmon;
     float: left;
+
+    padding-top: 30px;
 }
 
 .logo {
@@ -42,19 +39,97 @@ nav li  {
 .menu {
     height: 100%;
     width: 60%;
-    background-color: lightyellow;
     float: left;
-
+    padding-top: 37px;
     text-align: center;
 }
 
+.menu li a {
+   text-decoration: none;
+   color: white;
+   font-size: 17px;   
+}
+
+.accedi button {
+    height: 30px;
+    width: 60px;
+    border-radius: 25%;
+    border: 0.1px solid black;
+    cursor: pointer;
+
+    background-color: white;
+}
 
 /* MAIN */
 main {
     height: 80vh;
-    background-color: mediumseagreen;
+    background-color: rgb(62, 177, 114);
 
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.contenitore_principale {
+    height: 80%;
+    width: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.testo {
+    height: 70%;
+}
+
+.bottoni {
+    height: 30%;
+}
+
+.testo p:first-of-type {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+} 
+
+.testo p:last-of-type {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.bottoni {
+    text-align: center;
+}
+
+.bottoni button:first-of-type {
+    margin-right: 15px;
+    height: 40px;
+    width: 130px;
+    border-radius: 20%;
+    border: 0.5px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.bottoni button:last-of-type {
+    margin-right: 15px;
+    height: 40px;
+    width: 180px;
+    border-radius: 20%;
+    border: 0.5px solid black;
+    background-color: white;
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
