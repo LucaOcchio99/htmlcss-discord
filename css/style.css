@@ -144,14 +144,12 @@ main {
     height: 100%;
     width: 70%;
     margin: auto;
-    background-color: lightseagreen;
     font-size: 0;
 }
 
 .sinistra {
     width: 50%;
     height: 100%;
-    background-color: lime;
     display: inline-block;
     
     background-image: url(../img/item1.svg);
@@ -164,19 +162,27 @@ main {
 .destra {
     width: 50%;
     height: 100%;
-    background-color: mediumpurple;
     display: inline-block;
 
     position: relative;
 }
 
 .text {
-    height: 60%;
+    height: 90%;
     width: 60%;
-    background-color: rebeccapurple;
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.text p:first-of-type {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.text p:last-of-type {
+    font-weight: 300;
+    font-size: 21px;
 }
